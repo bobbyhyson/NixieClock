@@ -1,0 +1,86 @@
+(function () {
+    let testId = "0019"; 
+    let testName = "Request Models PDP - Cody v2"; 
+    let userSplit = "100";
+
+    if (!__dktst.getCookie("dktst_" + testId)) {
+        __dktst.splitUsers(testId, userSplit);
+    }
+    if (__dktst.getCookie("dktst_" + testId) == "variant") {
+        // code for variant test goes here
+        var waitForEl = function (selector, callback) {
+            if (document.querySelector(selector)) {
+                callback();
+            } else {
+                setTimeout(function () {
+                    waitForEl(selector, callback);
+                }, 100);
+            }
+        };
+        
+        function modelRequest() {
+            var currentURL = window.location.href;
+            if(document.querySelectorAll('.modelRequest').length > 0 ){
+                ajq('.modelRequest').remove();
+            }
+            if( currentURL.indexOf('products/detail/analog-devices-inc') !== -1){
+                waitForEl('[track-data="ref_page_event=Copy Manufacturer Part Number"]', function(){
+                //   var thisURL = window.location.href;
+                //   var splitIt = thisURL.split('/');
+                //   var partID = splitIt[splitIt.length - 1];
+                  var thisURL = window.location.href;
+                  var splitIt = thisURL.split('/');
+                  var partIDquestion = splitIt[splitIt.length - 1];
+                  var partID = partIDquestion.split('?')[0];
+                  //var partID = __NEXT_DATA__.query.id;
+                  var partNumber = ajq('[track-data="ref_page_event=Copy Manufacturer Part Number"]').text();
+                  if(partNumber.includes('#')){
+                      partNumber = partNumber.replace('#', '%23');
+                  }	
+                  if(partNumber.includes('+')){
+                      partNumber = partNumber.replace('+', '%2B');
+                  }	
+                  var manufacturer = ajq('[track-data="ref_page_event=Link to Supplier"]').text();
+                  //console.log(partNumber, manufacturer);
+                  if( document.querySelectorAll('#eda-cad-models').length < 1 ){
+                    ajq('[data-evg="product-details-overview"] table tbody').append(`<tr class="modelRequest">
+                        <td class="MuiTableCell-root tss-css-1y82erm-tdBold MuiTableCell-body MuiTableCell-sizeMedium mui-css-4ro0k3">
+                           <div class="tss-css-dazkrn-tdBreakCms">EDA/CAD Models</div>
+                        </td>
+                        <td class="MuiTableCell-root tss-css-1y82erm-tdBold MuiTableCell-body MuiTableCell-sizeMedium mui-css-4ro0k3">
+                            <a class="dk-link" target="_blank" href="https://feedback.digikey.com/jfe/form/SV_6DOxhOkYiLvUedU?dkpn=${partNumber}&mfr=${manufacturer}&partid=${partID}">Request Models</a>
+                        </td>
+                    </tr>`)   
+                  }  
+                })
+            }
+        }
+        
+        
+        ajq( document ).ready(function() {
+            setTimeout(() => {
+                    modelRequest();
+            }, "1000");
+        });
+        
+        //Observe for changes to the body and check for path changes 
+        var currentPath = window.location.href;
+        new MutationObserver(function() {
+            if (currentPath != window.location.href) {
+                currentPath = window.location.href;
+                setTimeout(() => {
+                    modelRequest();
+                }, "1500");
+            }
+        }).observe(document.querySelector("body"), {subtree: true, childList: true});
+        
+
+        // required in all tests to push the variant value to contentsquare for tracking
+        __dktst.setTrackDynamicVariable(testId, testName, "variant")
+    } else if(__dktst.getCookie("dktst_" + testId) == "control") {
+        // code for control test goes here
+
+        // required in all tests to push the control value to contentsquare for tracking
+        __dktst.setTrackDynamicVariable(testId, testName, "control")
+    }
+})();
