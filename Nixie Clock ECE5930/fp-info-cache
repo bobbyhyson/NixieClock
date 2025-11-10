@@ -1,4 +1,4 @@
-26648706484962238
+26648705873744231
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62439,6 +62439,13 @@ GDT 3R-6
 0
 3
 3
+HV5622PG-G
+QFP80P1390X1390X235-44N
+HV5622PG-G
+Integrated Circuit
+0
+44
+44
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -106266,13 +106273,6 @@ Varistor VF
 0
 2
 2
-footprints
-SW4_1825910-G_TEC
-
-2-1825910-7 
-0
-4
-4
 mynixies
 mynixies-214-3339-00-0602J
 3M TEXTOOL 14 POL. DIP LEVER ACTUATED ZERO INSERTION FORCE MECHANISM
