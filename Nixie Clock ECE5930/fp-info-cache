@@ -1,4 +1,4 @@
-26648705873744231
+26650469483441740
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62439,13 +62439,6 @@ GDT 3R-6
 0
 3
 3
-HV5622PG-G
-QFP80P1390X1390X235-44N
-HV5622PG-G
-Integrated Circuit
-0
-44
-44
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -74717,6 +74710,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PJ_002B
+CUI_PJ-002B
+
+
+0
+3
+3
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
@@ -106273,6 +106273,13 @@ Varistor VF
 0
 2
 2
+footprints
+SW4_1825910-G_TEC
+
+2-1825910-7 
+0
+4
+4
 mynixies
 mynixies-214-3339-00-0602J
 3M TEXTOOL 14 POL. DIP LEVER ACTUATED ZERO INSERTION FORCE MECHANISM
