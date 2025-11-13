@@ -1,4 +1,25 @@
-26652232493166348
+26659283674818584
+ABS07_32_768KHZ_T (1)
+CAP_ABS07-32.768KHZ-T_ABR
+
+ABS07-32.768KHZ-T 
+0
+2
+2
+ABS07_32_768KHZ_T (1)
+CAP_ABS07-32.768KHZ-T_ABR-L
+
+ABS07-32.768KHZ-T 
+0
+2
+2
+ABS07_32_768KHZ_T (1)
+CAP_ABS07-32.768KHZ-T_ABR-M
+
+ABS07-32.768KHZ-T 
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -74717,6 +74738,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PCB
+CR2032
+
+
+0
+3
+2
 PJ_002B
 CUI_PJ-002B
 
