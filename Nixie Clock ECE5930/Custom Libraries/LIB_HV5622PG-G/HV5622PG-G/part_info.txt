@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=HV5622PG-G
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=44
+Version=3.1
+Released=2017-02-15 20:55:22
+Downloaded=2025-11-03 05:41:29
+3D=Y

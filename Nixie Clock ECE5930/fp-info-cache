@@ -1,4 +1,4 @@
-26659283674818584
+26661047032714398
 ABS07_32_768KHZ_T (1)
 CAP_ABS07-32.768KHZ-T_ABR
 
@@ -34,6 +34,13 @@ audio belton reverb
 0
 7
 7
+BC_2600_TR (1)
+BAT_BC-2600
+
+
+0
+5
+5
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826

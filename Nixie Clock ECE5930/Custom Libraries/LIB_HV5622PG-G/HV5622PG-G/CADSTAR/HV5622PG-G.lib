@@ -1,0 +1,17 @@
+.HV5622PG-G :1 ;Serial to Parallel Logic Converters 220V 32Ch Open D Out
+QFP80P1390X1390X235-44N
+*STM IC
+*NGS
+*PLB 1="HV OUT22" 2="HV OUT21" 3="HV OUT20" 4="HV OUT19" 5="HV OUT18" 6="HV OUT17" 7="HV OUT16" 8="HV OUT15" 9="HV OUT14" 10="HV OUT13" 11="HV OUT12" 12="HV OUT11" 13="HV OUT10" 14="HV OUT9" 15="HV OUT 8" 16="HV OUT 7" 17="HV OUT 6" 18="HV OUT 5" 19="HV OUT 4" 20="HV OUT 3" 21="HV OUT 2" 22="HV OUT 1" 23="DATA OUT" 24="N/C_1" 25="N/C_2" 26="N/C_3" 27="'POL'" 28="CLK" 29="VSS" 30="VDD" 31="'LE'" 32="DATA IN" 33="'BL'" 34="N/C_4" 35="HV OUT32" 36="HV OUT31" &
+37="HV OUT30" 38="HV OUT29" 39="HV OUT28" 40="HV OUT27" 41="HV OUT26" 42="HV OUT25" 43="HV OUT24" 44="HV OUT23"
+*MXP 44
+*DFN HV5622PG-G
+~!Mouser Part Number (689-HV5622PG-G)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/HV5622PG-G?qs=jjdktuRV%2Fgg6x1DCsLKbaw%3D%3D)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (HV5622PG-G)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/HV5622PG-G.pdf)
+~!Height (2.35mm)
+~!3D_Model (HV5622PG-G)
+HV5622PG-G
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 33.1!U 32.1!U 31.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 44.1!U 43.1!U 42.1!U 41.1!U 40.1!U 39.1!U 38.1!U 37.1!U 36.1!U 35.1!U 34.1!U 

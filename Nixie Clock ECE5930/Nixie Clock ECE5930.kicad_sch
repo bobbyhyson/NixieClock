@@ -257,6 +257,277 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BC-2600:BC-2600"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at -3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "BC-2600"
+				(at -3.81 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "BC-2600:BAT_BC-2600"
+				(at 0.254 -9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "A"
+				(at 1.016 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "MPD"
+				(at -5.334 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.65mm"
+				(at 7.366 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "BC-2600_0_0"
+				(polyline
+					(pts
+						(xy -3.81 1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 2.54) (xy -3.175 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -2876,169 +3147,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "nixie-cache:Battery"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery"
-				(at 2.54 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.016 90)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 1.016 90)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_0_1"
-				(rectangle
-					(start -2.286 1.27)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.286 -0.1778)
-					(end 2.286 -0.4318)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.5748 0.6858)
-					(end 1.4732 0.1778)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.5748 -0.762)
-					(end 1.4732 -1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.413) (xy 1.524 2.413)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 2.921) (xy 1.016 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5774,6 +5882,16 @@
 		)
 		(uuid "785efdf1-00ec-461e-934d-381f2e9a384d")
 	)
+	(text "Bobby Thompson"
+		(exclude_from_sim no)
+		(at 741.172 567.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e3975ab-0e30-4d46-9b99-155936b26562")
+	)
 	(text "A1"
 		(exclude_from_sim no)
 		(at 814.324 577.342 0)
@@ -6041,6 +6159,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc088ce7-f2bd-4711-9906-32e7992cdc72")
+	)
+	(no_connect
+		(at 241.3 229.87)
+		(uuid "6221d323-3550-4022-9db4-cd8350de6d54")
 	)
 	(wire
 		(pts
@@ -6834,7 +6956,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 255.27) (xy 260.35 254)
+			(xy 267.97 256.54) (xy 267.97 254)
 		)
 		(stroke
 			(width 0)
@@ -8064,16 +8186,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 254) (xy 260.35 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98e068e1-80ed-4b69-9881-398e5c0abe75")
-	)
-	(wire
-		(pts
 			(xy 365.76 193.04) (xy 358.14 193.04)
 		)
 		(stroke
@@ -8281,6 +8393,16 @@
 			(type default)
 		)
 		(uuid "aea59608-1dd2-450e-80f2-9bd513183740")
+	)
+	(wire
+		(pts
+			(xy 245.11 254) (xy 247.65 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afb76f4a-71e6-44b8-bfd5-4f7a2783be69")
 	)
 	(wire
 		(pts
@@ -8541,6 +8663,16 @@
 			(type default)
 		)
 		(uuid "bff119c0-7d6a-4490-b179-1154028b150e")
+	)
+	(wire
+		(pts
+			(xy 262.89 254) (xy 267.97 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c179e702-c136-404f-bb5d-7a08b7a1116d")
 	)
 	(wire
 		(pts
@@ -9423,6 +9555,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR (Manufacturer)" "  TE Connectivity ALCOSWITCH Switches"
+			(at 140.97 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "RMCF0603FT27K4"
+			(at 140.97 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  450-1653-ND"
+			(at 140.97 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 140.97 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb34bd8a-4afe-49e4-a78c-f9750eec06a7")
 		)
@@ -9499,6 +9667,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR (Manufacturer)" "  TE Connectivity ALCOSWITCH Switches"
+			(at 140.97 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "RMCF0603FT27K4"
+			(at 140.97 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  450-1653-ND"
+			(at 140.97 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 140.97 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "012adecb-aff9-495b-a138-9a32c6400cd2")
 		)
@@ -9525,9 +9729,9 @@
 		(at 381 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "102af1da-b666-460c-8269-c976a3a8ab21")
 		(property "Reference" "N6"
@@ -9538,7 +9742,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "IN-14"
 			(at 381 116.84 0)
 			(effects
 				(font
@@ -9566,6 +9770,42 @@
 			)
 		)
 		(property "Description" "IN-14: medium numeric frontview nixie tube"
+			(at 381 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" ""
+			(at 381 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "${ITEM_NUMBER}"
+			(at 381 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" ""
+			(at 381 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" ""
 			(at 381 116.84 0)
 			(effects
 				(font
@@ -9693,9 +9933,9 @@
 		(at 407.67 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1370037c-fec0-44db-8abb-b3bfc44b10f4")
 		(property "Reference" "N2"
@@ -9706,7 +9946,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "IN-14"
 			(at 407.67 228.6 0)
 			(effects
 				(font
@@ -9734,6 +9974,42 @@
 			)
 		)
 		(property "Description" "IN-14: medium numeric frontview nixie tube"
+			(at 407.67 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" ""
+			(at 407.67 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "${ITEM_NUMBER}"
+			(at 407.67 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" ""
+			(at 407.67 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" ""
 			(at 407.67 228.6 0)
 			(effects
 				(font
@@ -9834,6 +10110,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 340.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" "  Microchip Technology"
+			(at 340.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  HV5622PG-G"
+			(at 340.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "HV5622PG-G-ND"
+			(at 340.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
 			(at 340.36 111.76 0)
 			(effects
 				(font
@@ -10168,6 +10480,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR (Manufacturer)" "  Amphenol ICC (FCI)"
+			(at 228.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  10125394-T0803ALF"
+			(at 228.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  609-10125394-T0803ALFTR-ND - Tape & Reel (TR)"
+			(at 228.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 228.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d649425f-1a69-4956-9d3b-5a6d66f41349")
 		)
@@ -10248,6 +10596,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR (Manufacturer)" "  RMCF0603FT27K4TR-ND - Tape & Reel (TR)"
+			(at 405.13 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  RMCF0603FT27K4"
+			(at 405.13 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  Stackpole Electronics Inc"
+			(at 405.13 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 405.13 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e48637f3-6cfa-4be2-bdb8-7db62af9785b")
 		)
@@ -10310,6 +10694,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 139.7 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" "  TE Connectivity ALCOSWITCH Switches"
+			(at 139.7 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "RMCF0603FT27K4"
+			(at 139.7 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  450-1653-ND"
+			(at 139.7 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
 			(at 139.7 214.63 0)
 			(effects
 				(font
@@ -10394,6 +10814,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR (Manufacturer)" "  Amphenol ICC (Commercial Products)"
+			(at 171.45 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  G800W305018EU"
+			(at 171.45 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  664-G800W305018EU-ND"
+			(at 171.45 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 171.45 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "92564557-d136-43b7-88a2-60a688d910ea")
 		)
@@ -10458,6 +10914,42 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 403.86 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" "  RMCF0603FT27K4TR-ND - Tape & Reel (TR)"
+			(at 403.86 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  RMCF0603FT27K4"
+			(at 403.86 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  Stackpole Electronics Inc"
+			(at 403.86 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 403.86 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10657,6 +11149,42 @@
 			)
 		)
 		(property "Description" "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28"
+			(at 186.69 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" "  Microchip Technology"
+			(at 186.69 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  ATMEGA328P-PU"
+			(at 186.69 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  ATMEGA328P-PU-ND"
+			(at 186.69 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
 			(at 186.69 182.88 0)
 			(effects
 				(font
@@ -10895,9 +11423,9 @@
 		(at 389.89 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "48e25f33-9fdb-4a78-82f5-25a26da83c02")
 		(property "Reference" "N7"
@@ -10908,7 +11436,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "IN-14"
 			(at 389.89 152.4 0)
 			(effects
 				(font
@@ -10936,6 +11464,42 @@
 			)
 		)
 		(property "Description" "IN-14: medium numeric frontview nixie tube"
+			(at 389.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" ""
+			(at 389.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "${ITEM_NUMBER}"
+			(at 389.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" ""
+			(at 389.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" ""
 			(at 389.89 152.4 0)
 			(effects
 				(font
@@ -11045,6 +11609,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR (Manufacturer)" "  RMCF0603FT27K4TR-ND - Tape & Reel (TR)"
+			(at 406.4 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  RMCF0603FT27K4"
+			(at 406.4 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  Stackpole Electronics Inc"
+			(at 406.4 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 406.4 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a2582bd-c260-49ce-81fe-8a3c8aced4b5")
 		)
@@ -11065,9 +11665,9 @@
 		(at 381 179.07 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4cf6d901-0a2e-4492-9b67-0d7b6a1784b9")
 		(property "Reference" "N8"
@@ -11104,6 +11704,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 381 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" ""
+			(at 381 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "${ITEM_NUMBER}"
+			(at 381 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" ""
+			(at 381 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" ""
 			(at 381 179.07 0)
 			(effects
 				(font
@@ -11248,6 +11884,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR (Manufacturer)" "  Vishay Dale"
+			(at 213.36 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  CRCW08057K00JNTA"
+			(at 213.36 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  CRCW08057K00JNTA-ND - Tape & Reel (TR)"
+			(at 213.36 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 213.36 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11d8e79a-d5e0-409a-ad2e-559719d8b369")
 		)
@@ -11273,7 +11945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d7a2e86-53fc-4202-87c3-8e0e2e532f38")
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 146.05 285.75 0)
 			(effects
 				(font
@@ -11317,6 +11989,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR (Manufacturer)" "  UMW"
+			(at 146.05 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "78L05"
+			(at 146.05 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  4518-78L05TR-ND"
+			(at 146.05 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 146.05 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9863e690-023c-40c9-80f1-174112b2c2f4")
 		)
@@ -11329,7 +12037,7 @@
 		(instances
 			(project ""
 				(path "/63b4e926-21a3-41c7-8ce9-febb41fda3e7"
-					(reference "U6")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -11485,7 +12193,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 163.83 297.1799 0)
 			(effects
 				(font
@@ -11513,6 +12221,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 160.02 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" "  Walsin Technology Corporation"
+			(at 160.02 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  0402B104K160CT"
+			(at 160.02 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  1292-1630-2-ND - Tape & Reel (TR)"
+			(at 160.02 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
 			(at 160.02 295.91 0)
 			(effects
 				(font
@@ -11656,6 +12400,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR (Manufacturer)" "  YAGEO"
+			(at 267.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  RC0603FR-0710KL"
+			(at 267.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  311-10.0KHRTR-ND - Tape & Reel (TR)"
+			(at 267.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 267.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e76ec93a-13f6-43d5-bbcd-d76f16f80bf5")
 		)
@@ -11756,7 +12536,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 173.99 297.1799 0)
 			(effects
 				(font
@@ -11784,6 +12564,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 170.18 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" "  Walsin Technology Corporation"
+			(at 170.18 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  0402B104K160CT"
+			(at 170.18 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  1292-1630-2-ND - Tape & Reel (TR)"
+			(at 170.18 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
 			(at 170.18 295.91 0)
 			(effects
 				(font
@@ -11926,6 +12742,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR (Manufacturer)" "  Walsin Technology Corporation"
+			(at 201.93 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  0402B104K160CT"
+			(at 201.93 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  1292-1630-2-ND - Tape & Reel (TR)"
+			(at 201.93 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 201.93 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2d50f379-7414-406f-b24b-760d20ca9cc4")
 		)
@@ -11993,6 +12845,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR (Manufacturer)" "  KEMET"
+			(at 269.24 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  C0603C220J5GACTU"
+			(at 269.24 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  C0603C220J5GACTU"
+			(at 269.24 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 269.24 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57aa284b-3b5e-4d4c-912e-05bc60e9627e")
 		)
@@ -12019,7 +12907,7 @@
 		(dnp no)
 		(uuid "7e50a2a7-457a-4f8d-803c-f79858238e90")
 		(property "Reference" "U2"
-			(at 339.725 170.18 0)
+			(at 339.344 182.372 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12034,7 +12922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HV5622PG-G:QFP80P1390X1390X235-44N"
+		(property "Footprint" "KiCad:QFP80P1390X1390X235-44N"
 			(at 340.36 203.2 0)
 			(effects
 				(font
@@ -12052,6 +12940,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 340.36 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" "  Microchip Technology"
+			(at 340.36 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  HV5622PG-G"
+			(at 340.36 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "HV5622PG-G-ND"
+			(at 340.36 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
 			(at 340.36 220.98 0)
 			(effects
 				(font
@@ -12387,6 +13311,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR (Manufacturer)" "  Analog Devices Inc./Maxim Integrated"
+			(at 251.46 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  DS3231S#T&R"
+			(at 251.46 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "DS3231S#T&RTR-ND"
+			(at 251.46 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 251.46 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "3bb6d3b3-79db-4eae-9869-c5f49578995a")
 		)
@@ -12494,6 +13454,42 @@
 		)
 		(property "Description" ""
 			(at 262.89 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" "  Abracon LLC"
+			(at 262.89 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  ABS07-32.768KHZ-T"
+			(at 262.89 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  535-9542-2-ND - Tape & Reel (TR)"
+			(at 262.89 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 262.89 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12716,7 +13712,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 260.35 255.27 0)
+		(at 267.97 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12725,7 +13721,7 @@
 		(fields_autoplaced yes)
 		(uuid "8edca9ff-69bb-463b-8fe4-3d0bbc2f5fbc")
 		(property "Reference" "#PWR015"
-			(at 260.35 261.62 0)
+			(at 267.97 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12734,7 +13730,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 260.35 0)
+			(at 267.97 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12742,7 +13738,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 255.27 0)
+			(at 267.97 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12751,7 +13747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 255.27 0)
+			(at 267.97 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12760,7 +13756,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 255.27 0)
+			(at 267.97 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12833,6 +13829,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR (Manufacturer)" "  RMCF0603FT27K4TR-ND - Tape & Reel (TR)"
+			(at 424.18 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  RMCF0603FT27K4"
+			(at 424.18 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  Stackpole Electronics Inc"
+			(at 424.18 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 424.18 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "686cc421-aa21-4d0d-b93e-9c030adb0fa9")
 		)
@@ -12853,9 +13885,9 @@
 		(at 394.97 295.91 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "961dd4ba-ab2d-4b17-9644-0263e2fba19a")
 		(property "Reference" "N4"
@@ -12892,6 +13924,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 394.97 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" ""
+			(at 394.97 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "${ITEM_NUMBER}"
+			(at 394.97 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" ""
+			(at 394.97 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" ""
 			(at 394.97 295.91 0)
 			(effects
 				(font
@@ -13034,6 +14102,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR (Manufacturer)" "  YAGEO"
+			(at 403.86 293.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  RC0402FR-07100KL"
+			(at 403.86 293.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  311-100KLRTR-ND - Tape & Reel (TR)"
+			(at 403.86 293.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 403.86 293.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd700e82-e431-4558-bb55-529bfa11c2bf")
 		)
@@ -13054,9 +14158,9 @@
 		(at 387.35 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "aa228c13-0ba5-4a97-a174-d0424e361458")
 		(property "Reference" "N5"
@@ -13067,7 +14171,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "IN-14"
 			(at 387.35 77.47 0)
 			(effects
 				(font
@@ -13095,6 +14199,42 @@
 			)
 		)
 		(property "Description" "IN-14: medium numeric frontview nixie tube"
+			(at 387.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" ""
+			(at 387.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "${ITEM_NUMBER}"
+			(at 387.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" ""
+			(at 387.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" ""
 			(at 387.35 77.47 0)
 			(effects
 				(font
@@ -13338,6 +14478,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR (Manufacturer)" "  Vishay Dale"
+			(at 226.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  CRCW08057K00JNTA"
+			(at 226.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  CRCW08057K00JNTA-ND - Tape & Reel (TR)"
+			(at 226.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 226.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a2a962a-885a-4927-b84f-3d41e0e83ee3")
 		)
@@ -13348,73 +14524,6 @@
 			(project ""
 				(path "/63b4e926-21a3-41c7-8ce9-febb41fda3e7"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "nixie-cache:Battery")
-		(at 248.92 254 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afffbc7b-4ca8-46fd-95af-ad3f931adeac")
-		(property "Reference" "BT1"
-			(at 248.031 246.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Battery"
-			(at 248.031 248.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Battery:Battery_Panasonic_CR2032-HFN_Horizontal_CircularHoles"
-			(at 247.904 254 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.904 254 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d7c72136-1b93-4559-8e64-a89e73d101f2")
-		)
-		(pin "1"
-			(uuid "35790489-3f90-46c0-814f-6ed57169100f")
-		)
-		(instances
-			(project ""
-				(path "/63b4e926-21a3-41c7-8ce9-febb41fda3e7"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -13557,9 +14666,9 @@
 		(at 388.62 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "c0166b03-eaaf-4dbb-967e-6f5a222bfcdb")
 		(property "Reference" "N1"
 			(at 389.89 176.53 0)
@@ -13569,7 +14678,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "IN-14"
 			(at 388.62 196.85 0)
 			(effects
 				(font
@@ -13597,6 +14706,42 @@
 			)
 		)
 		(property "Description" "IN-14: medium numeric frontview nixie tube"
+			(at 388.62 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" ""
+			(at 388.62 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "${ITEM_NUMBER}"
+			(at 388.62 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" ""
+			(at 388.62 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" ""
 			(at 388.62 196.85 0)
 			(effects
 				(font
@@ -13648,6 +14793,160 @@
 			(project ""
 				(path "/63b4e926-21a3-41c7-8ce9-febb41fda3e7"
 					(reference "N1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BC-2600:BC-2600")
+		(at 255.27 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c21f9558-bbb8-491d-83af-ab7081c7380a")
+		(property "Reference" "BT2"
+			(at 255.27 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BC-2600"
+			(at 255.27 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BC_2600_TR (1):BAT_BC-2600"
+			(at 255.524 263.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 256.286 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "MPD"
+			(at 249.936 257.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.65mm"
+			(at 262.636 257.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 255.27 246.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" "  MPD (Memory Protection Devices)"
+			(at 255.27 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  BC-2600-TR"
+			(at 255.27 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  61-BC-2600-TR-ND - Tape & Reel (TR)"
+			(at 255.27 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 255.27 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S2"
+			(uuid "a7fbdc31-ff52-4861-84d2-fe4364355ddd")
+		)
+		(pin "2"
+			(uuid "b8c2aaff-7f1e-4e33-a0da-4d467d7264b7")
+		)
+		(pin "S3"
+			(uuid "efa32044-dafa-4a5e-ae92-3b7398165aa4")
+		)
+		(pin "1"
+			(uuid "a8fcef56-abb1-43c3-9cd1-51160eaa22f8")
+		)
+		(pin "S1"
+			(uuid "3c90b202-cd41-43e1-bd49-45cde560bdce")
+		)
+		(instances
+			(project ""
+				(path "/63b4e926-21a3-41c7-8ce9-febb41fda3e7"
+					(reference "BT2")
 					(unit 1)
 				)
 			)
@@ -13775,7 +15074,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "CUI INC"
+		(property "STANDARD" "Manufacturer recommendations"
 			(at 138.43 323.85 0)
 			(effects
 				(font
@@ -13785,13 +15084,39 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer recommendations"
-			(at 138.43 323.85 0)
+		(property "MFR (Manufacturer)" "  Same Sky (Formerly CUI Devices)"
+			(at 138.43 323.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  PJ-002B"
+			(at 138.43 323.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  CP-002B-ND"
+			(at 138.43 323.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 138.43 323.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13859,6 +15184,42 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 383.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" "  YAGEO"
+			(at 383.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  RC0402FR-07100KL"
+			(at 383.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  311-100KLRTR-ND - Tape & Reel (TR)"
+			(at 383.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
 			(at 383.54 172.72 0)
 			(effects
 				(font
@@ -14067,6 +15428,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR (Manufacturer)" "  KEMET"
+			(at 269.24 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  C0603C220J5GACTU"
+			(at 269.24 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  C0603C220J5GACTU"
+			(at 269.24 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 269.24 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8384d2dd-de22-4542-b17b-e87ce176853a")
 		)
@@ -14128,6 +15525,42 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 397.51 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" "  RMCF0603FT27K4TR-ND - Tape & Reel (TR)"
+			(at 397.51 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  RMCF0603FT27K4"
+			(at 397.51 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  Stackpole Electronics Inc"
+			(at 397.51 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 397.51 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14551,9 +15984,9 @@
 		(at 388.62 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "ee7d37ae-badd-4900-a8ab-f5a8937641cd")
 		(property "Reference" "N3"
 			(at 389.89 246.38 0)
@@ -14563,7 +15996,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "IN-14"
 			(at 388.62 266.7 0)
 			(effects
 				(font
@@ -14591,6 +16024,42 @@
 			)
 		)
 		(property "Description" "IN-14: medium numeric frontview nixie tube"
+			(at 388.62 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" ""
+			(at 388.62 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "${ITEM_NUMBER}"
+			(at 388.62 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" ""
+			(at 388.62 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" ""
 			(at 388.62 266.7 0)
 			(effects
 				(font
@@ -14759,6 +16228,42 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 405.13 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR (Manufacturer)" "  RMCF0603FT27K4TR-ND - Tape & Reel (TR)"
+			(at 405.13 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN (Manufacturer Part Number)" "  RMCF0603FT27K4"
+			(at 405.13 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN (Supplier Part Number)" "  Stackpole Electronics Inc"
+			(at 405.13 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR (Supplier)" "DigiKey"
+			(at 405.13 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)

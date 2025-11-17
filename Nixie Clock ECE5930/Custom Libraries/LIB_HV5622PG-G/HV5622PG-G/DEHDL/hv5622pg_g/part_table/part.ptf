@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'HV5622PG_G'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "HV5622PG-G" (!) = "", "QFP80P1390X1390X235-44N", "Quad Flat Packages", "689-HV5622PG-G", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/HV5622PG-G?qs=jjdktuRV%2Fgg6x1DCsLKbaw%3D%3D", "Serial to Parallel Logic Converters 220V 32Ch Open D Out", "https://componentsearchengine.com/Datasheets/1/HV5622PG-G.pdf", "2.35 mm"
+END_PART
+
+END.

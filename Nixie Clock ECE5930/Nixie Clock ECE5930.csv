@@ -1,0 +1,19 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet,Description,MFR (Manufacturer),SPN (Supplier Part Number),SPR (Supplier),MPN (Manufacturer Part Number)
+BT2,1,BC-2600,,,,BC_2600_TR (1):BAT_BC-2600,,,  MPD (Memory Protection Devices),  61-BC-2600-TR-ND - Tape & Reel (TR),DigiKey,  BC-2600-TR
+"C1,C4,C5",3,0.1uF,,,,Capacitor_SMD:C_2220_5750Metric,~,Unpolarized capacitor,  Walsin Technology Corporation,  1292-1630-2-ND - Tape & Reel (TR),DigiKey,  0402B104K160CT
+"C2,C3",2,22pF,,,,Capacitor_SMD:C_2220_5750Metric,~,Unpolarized capacitor,  KEMET,  C0603C220J5GACTU,DigiKey,  C0603C220J5GACTU
+C6,1,ABS07-32.768KHZ-T,,,,ABS07_32_768KHZ_T (1):CAP_ABS07-32.768KHZ-T_ABR,ABS07-32.768KHZ-T,,  Abracon LLC,  535-9542-2-ND - Tape & Reel (TR),DigiKey,  ABS07-32.768KHZ-T
+J1,1,Conn_02x03_Top_Bottom,,,,Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal,~,"Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)",  Amphenol ICC (FCI),  609-10125394-T0803ALFTR-ND - Tape & Reel (TR),DigiKey,  10125394-T0803ALF
+J2,1,PJ-002B,,,,PJ_002B:CUI_PJ-002B,,,  Same Sky (Formerly CUI Devices),  CP-002B-ND,DigiKey,  PJ-002B
+J3,1,Conn_01x03,,,,Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal,~,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",  Amphenol ICC (Commercial Products),  664-G800W305018EU-ND,DigiKey,  G800W305018EU
+"N1,N2,N3,N5,N6,N7",6,IN-14,DNP,Excluded from BOM,Excluded from board,nixies-us:nixies-us-IN-14,,IN-14: medium numeric frontview nixie tube,,,,${ITEM_NUMBER}
+"N4,N8",2,IN-3,DNP,Excluded from BOM,Excluded from board,russian-nixies:russian-nixies-IN-3,,,,,,${ITEM_NUMBER}
+R1,1,10K,,,,Resistor_SMD:R_0201_0603Metric,~,"Resistor, US symbol",  YAGEO,  311-10.0KHRTR-ND - Tape & Reel (TR),DigiKey,  RC0603FR-0710KL
+"R2,R3",2,7K,,,,Resistor_SMD:R_0201_0603Metric,~,"Resistor, US symbol",  Vishay Dale,  CRCW08057K00JNTA-ND - Tape & Reel (TR),DigiKey,  CRCW08057K00JNTA
+"R4,R11",2,100K,,,,Resistor_SMD:R_0201_0603Metric,~,"Resistor, US symbol",  YAGEO,  311-100KLRTR-ND - Tape & Reel (TR),DigiKey,  RC0402FR-07100KL
+"R5,R6,R7,R8,R9,R10",6,27K,,,,Resistor_SMD:R_0201_0603Metric,~,"Resistor, US symbol",  RMCF0603FT27K4TR-ND - Tape & Reel (TR),  Stackpole Electronics Inc,DigiKey,  RMCF0603FT27K4
+"SW4,SW5,SW6",3,2-1825910-7,,,,footprints:SW4_1825910-G_TEC,2-1825910-7,,  TE Connectivity ALCOSWITCH Switches,  450-1653-ND,DigiKey,RMCF0603FT27K4
+U1,1,ATmega328P-P,,,,Package_DIP:DIP-28_W7.62mm,http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf,"20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28",  Microchip Technology,  ATMEGA328P-PU-ND,DigiKey,  ATMEGA328P-PU
+"U2,U3",2,HV5622,,,,KiCad:QFP80P1390X1390X235-44N,,,  Microchip Technology,HV5622PG-G-ND,DigiKey,  HV5622PG-G
+U5,1,DS3231N,,,,DS3231SN#:SOIC127P1032X265-16N,,,  Analog Devices Inc./Maxim Integrated,DS3231S#T&RTR-ND,DigiKey,  DS3231S#T&R
+U4,1,L78L05_SOT89,,,,Package_TO_SOT_SMD:SOT-89-3,http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf,"Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89",  UMW,  4518-78L05TR-ND,DigiKey,78L05
